@@ -1,0 +1,102 @@
+<!--Headings -->
+
+<h1 id="markdown-practice">MARKDOWN PRACTICE</h1>
+<p><strong>Paragraph.</strong></p>
+<p>*List item number one.</p>
+<p>*List item number two.</p>
+<Hello!>
+
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+
+<!-- Italics -->
+
+<p><em>Text</em> in italic.</p>
+<p><em>Text</em> in italic.</p>
+
+<!-- Strong -->
+
+<p><strong>Text</strong> is strong.</p>
+<p><strong>Text</strong> is strong.</p>
+
+<!--Strikethrough: tilde -->
+
+<p><del>Text</del> is strikethrough.</p>
+
+<!-- Horizontal rule: triple hyphens or underscore to separate content -->
+
+<hr>
+<hr>
+
+<!-- Show the specific characters with escape -->
+
+<p>*Surround text by literal asterisk.*</p>
+
+<!-- Blockquotes -->
+
+<blockquote>
+<p>If you’re going to try, go all the way.</p>
+</blockquote>
+<p>Otherwise, don’t even start.</p>
+<!--HyperLinks -->
+<p>This exercise is inspired by: </p>
+<p><a href="http://daringfireball.net/" title="Daring Fireball">Daring Fireball</a> &quot;Markdown: Syntax&quot;</p>
+<p><a href="https://www.youtube.com/watch?v=HUBNt18RFbo">Traversy Media</a> &quot;Markdown Crash Course&quot;</p>
+
+<!-- List of items -->
+
+<ul>
+<li><p>Item 1.</p>
+</li>
+<li><p>Item 2.</p>
+<ul>
+<li>Nested item 2.1.</li>
+<li>Nested Item 2.2.</li>
+</ul>
+</li>
+</ul>
+
+<!-- Order list -->
+
+<ol>
+<li>First item.</li>
+<li>Second item.</li>
+</ol>
+
+<!-- Code Block -->
+
+<p><a href="https://www.codewars.com/kata/5266876b8f4bf2da9b000362">Codewars</a> &quot;Who likes it?&quot;</p>
+<pre><code class="lang-JavaScript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">likes</span>(<span class="hljs-params">names</span>) </span>{
+  <span class="hljs-keyword">if</span>(names.length === <span class="hljs-number">0</span>){
+    <span class="hljs-keyword">return</span> <span class="hljs-string">"no one likes this"</span>;
+  }
+  <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (names.length === <span class="hljs-number">1</span>){
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`<span class="hljs-subst">${names[<span class="hljs-number">0</span>]}</span> likes this`</span>;
+  }
+  <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (names.length === <span class="hljs-number">2</span>){
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`<span class="hljs-subst">${names[<span class="hljs-number">0</span>]}</span> and <span class="hljs-subst">${names[<span class="hljs-number">1</span>]}</span> like this`</span> 
+  }
+  <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (names.length === <span class="hljs-number">3</span>){
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`<span class="hljs-subst">${names[<span class="hljs-number">0</span>]}</span>, <span class="hljs-subst">${names[<span class="hljs-number">1</span>]}</span> and <span class="hljs-subst">${names[<span class="hljs-number">2</span>]}</span> like this`</span> 
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">`<span class="hljs-subst">${names[<span class="hljs-number">0</span>]}</span>, <span class="hljs-subst">${names[<span class="hljs-number">1</span>]}</span> and <span class="hljs-subst">${names.length - <span class="hljs-number">2</span>}</span> others like this`</span>
+  }
+}
+</code></pre>
+<hr>
+<hr>
+
+<!-- Image -->
+
+<p><img src="https://www.google.com/search?q=markdown+logo&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwiK17Ly84z8AhWHr6QKHU8mBNAQ_AUoAXoECAEQAw&amp;biw=1920&amp;bih=969&amp;dpr=1#imgrc=uE0aDvHJlrnEMM" alt="Markdown logo" title="Google search for Markdown logo"></p>
+
+<!--Task lists -->
+
+<ul>
+<li>[x] First task</li>
+<li>[x] Second task</li>
+<li>[ ] Third task</li>
+</ul>
