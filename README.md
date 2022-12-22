@@ -48,7 +48,7 @@ ___
 
 >If you’re going to try, go all the way.
 
-Otherwise, don’t even start.
+>Otherwise, don’t even start.
 
 <!--HyperLinks -->
 
